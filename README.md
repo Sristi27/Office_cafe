@@ -45,7 +45,8 @@ Nodemailer
 
 
 ### Responsive Look!
-[Uploading Screenshot 2021-06-20 at 12.35.36 AM.png…]()
+![Screenshot 2021-06-20 at 12 35 36 AM](https://user-images.githubusercontent.com/53037053/122653040-a6795580-d15f-11eb-95cf-5662352af36e.png)
+
 
 
 ## What's next for Office Cafe 
