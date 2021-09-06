@@ -22,7 +22,7 @@ nodemailer.createTransport({
 
 
 router.post('/send', (req, res) => {
-    const {html,message, subject,to} = req.body
+    const {html,subject,to} = req.body
     var mailOptions=
     {
         from:'noreply.officeeats@gmail.com',
