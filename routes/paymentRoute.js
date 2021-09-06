@@ -1,11 +1,6 @@
 const express=require('express');
-const bodyparser=require('body-parser');
-const mongoose=require('mongoose');
-const path=require('path')
-const cors=require('cors')
-const http=require('http')
 const router=express.Router();
-const stripe=require("stripe")("sk_test_51IpczwSH2HRN2FzsEDNbqB8YgUfdScGZ4RwlycM9EaWeAuCDSqLBuGboLyTMD4Dsu6vdLltmmvxLcsSgAyMckUXs00bnZBYkZk")
+const stripe=require("stripe")("sk_test_tR3PYbcVNZZ796tH88S4VQ2u")
 const { v4: uuidv4 } = require('uuid');
 
 
