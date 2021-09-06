@@ -4,9 +4,7 @@ const mongoose=require('mongoose');
 const path=require('path')
 var cors=require('cors')
 const http=require('http')
-const {STRIPE_ID,MONGO_URI}=require('./config/keys')
-const stripe=require("stripe")(STRIPE_ID)
-const { v4: uuidv4 } = require('uuid');
+const {STRIPE_ID,MONGO_URI}=require('./config/keys');
 
 
 const PORT = process.env.PORT || 5000; 
