@@ -34,7 +34,7 @@ router.post('/send', (req, res) => {
     transporter.sendMail(mailOptions,
         function(error,info)
         {
-            if(error) return res.status(404).json({error:'Message could not be delivered'})
+            if(error) return res.status(404).json({error:error})
         
         else{
             res.status(200).json({message:"We have sent a mail on your email Adress.Please check it for further details"})
