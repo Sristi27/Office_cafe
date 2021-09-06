@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const stripe=require("stripe")("sk_test_tR3PYbcVNZZ796tH88S4VQ2u")
+const stripe=require("stripe")("sk_test_51I4BBrI7Rq4MvTfMyfu7E6xu2sYtiRO4vo8Jq0M6qamuwX6oHKSlITi0wVo7XMnFoZmR67AKhGKgfDY1fXSwf4Yu00LCk7SW3s")
 const { v4: uuidv4 } = require('uuid');
 
 
